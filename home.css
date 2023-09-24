@@ -1,0 +1,223 @@
+*{
+    margin : 0;
+}
+body{
+    background-color: #171010;
+}
+/* header */
+header{
+    background-color: #423F3E;
+    font-family: Nanum Myeongjo;
+    color: white;
+    display: flex;
+}
+.kiri{
+    display: flex;
+    font-weight: bold;
+}
+.m{
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left : 30px;
+    padding-right: 5px;
+}
+.erci{
+    padding-top: 23px;
+    font-size: 18px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+.tengah{
+    padding-left: 180px;
+    padding-top: 70px;
+}
+.menu{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.menu:hover{
+    color: #201717;
+    transition: 250ms;
+}
+/* =================================== */
+/* Body */
+.bodi{
+    font-family: oxygen;
+    color: white;
+}
+.bagian-1{
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.pict{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+    position: relative;
+}
+.pict1{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+    position: relative;
+}
+.sub-x{
+    position: absolute;
+    top: 80%;
+    left: 12%;
+}
+hr{
+    width: 1500px;
+    margin: auto;
+}
+
+
+
+.bagian-2{
+    background-color: #2B2B2B;
+}
+.sub-y{
+    text-align: center; 
+    padding: 30px 0px;
+}
+.merk{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 30px;
+}
+.merk1{
+    width: 400px;
+    height: 340px;
+}
+.merk2{
+    width: 275px;
+    height: 275px;
+    padding-left: 120px;
+}
+.merk3{
+    width: 463px;
+    height: 177px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.merk4{
+    width: 700px;
+    height: 450px;
+}
+.merk5{
+    width: 522px;
+    height: 294px;
+    
+}
+.merk6{
+    width: 358px;
+    height: 358px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+
+.bagian-3{
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.sub-z{
+    position: absolute;
+    top: 85%;
+    left: 12%;
+}
+
+
+.bagian4{
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sub-zz{
+    position: absolute;
+    top: 320%;
+    left: 12%;
+}
+.pict:hover{
+    transform: scale(1.1);
+    transition: 250ms;
+}
+.up{
+    padding-left: 900px;
+    width: 119px;
+    height: 127px;
+    padding-bottom: 30px;
+}
+/* =================================== */
+/* Footer */
+footer{
+    background-color: #423F3E;
+    color: white;
+    font-family: oxygen;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 100%;
+}
+.left{
+    padding-left: 50px;
+    padding-bottom: 70px; 
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.sub-footer{
+    margin-right: 200px;
+    padding-top: 20px;
+}
+.x{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    font-size: smaller;
+}
+.x:hover{
+    color: #201717;
+    transition: 250ms;
+}
+.middle{
+    padding-right: 650px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.right{
+    padding-right: 50px;
+    padding-top: 100px;
+    
+}
+.sub-f{
+    text-align: center;
+}
+.sosmed{
+    width : 70px;
+    padding-left: 15px;
+}
+.susmed{
+    width : 80px;
+    margin-top: 10px;  
+    padding-left: 15px;  
+}
